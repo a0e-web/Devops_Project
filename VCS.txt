@@ -1,0 +1,24 @@
+Git nedir?
+Git, dağıtık bir versiyon kontrol sistemidir (VCS - Version Control System). Yazılım geliştirme projelerinde, kodun sürüm geçmişini takip etmek, değişiklikleri yönetmek ve işbirliği yapmak amacıyla kullanılır. Yedekleme imkanı, proje takibi, birden fazla kişiyle çalışmayı sağlar.
+Dağıtık Sistem:
+Git, her katılımcının kendi lokal depo kopyasına sahip olduğu bir dağıtık sistemdir. Bu, projenin çeşitli yerlerde çalışabilmesine ve internet bağlantısı olmadan da çalışabilmesine olanak tanır.
+
+VCS, "Version Control System"
+Bir yazılım projesi veya dokümantasyon gibi diğer türdeki dosyalar üzerinde yapılan değişiklikleri yönetmek, takip etmek ve organize etmek için kullanılan bir sistemdir. VCS, bir projenin farklı versiyonlarını, değişiklik geçmişini ve işbirliği sağlamak amacıyla kullanılır.
+Temel Görevler:
+Versiyon Kontrolü:
+Değişiklikleri İzleme
+İşbirliği ve Paralel Geliştirme
+Geri Alma ve Geri Yükleme
+İzlenebilirlik ve Raporlama
+
+Commit
+ İyi bir commit mesajı, diğer geliştiricilerin ve gelecekteki sizin için daha anlaşılır ve izlenebilir bir kod tarihçesi oluşturmanıza yardımcı olur.
+Açık ve Anlaşılır:
+Kısa ve Öz:
+bir commit bir değişikliği içermelidir ve bir konu veya özellikle ilgili olmalıdır.
+Commit mesajları genellikle bir eylemi (fiili) ifade etmelidir. Örneğin, "Fix", "Add", "Update" gibi fiiller kullanmak, değişikliğin ne tür bir işlevi gerçekleştirdiğini açıklar.
+İmperatif Kip Kullanımı:
+Commit mesajlarınızı genellikle imperatif kip (emir kipi) ile yazmalısınız. Örneğin, "Add feature" veya "Fix bug" gibi ifadeler kullanmak, commitin yapılmasını talep eder gibi açık ve doğrudan bir ifade sağlar.
+Referanslar Eklemek:
+Açıklamalar Eklemek (Opsiyonel):

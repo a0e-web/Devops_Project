@@ -1,0 +1,11 @@
+Unstaged Area (Sahneye Alınmamış Alan):
+
+Bu alan, çalışma dizininizde yaptığınız değişiklikleri içerir, ancak henüz bu değişiklikleri bir sonraki commit'e eklemek için git tarafından izlenmez.
+git status komutuyla bu alanı görebilirsiniz. Bu komut, hangi dosyaların değiştirildiğini ve bunların "unstaged" (sahneye alınmamış) olduğunu gösterir.
+
+Staged Area (Sahneye Alınmış Alan):
+
+Bu alan, bir sonraki commit'e eklenecek değişiklikleri içerir. Yani, commit etmek istediğiniz dosyaları "sahneye alırsınız".
+git add komutu ile dosyaları staged area'ya ekleyebilirsiniz. Bu, değişiklikleri bir sonraki commit'e eklemeye hazırlar.
+
+Yeni dosya oluştururuz git add komutu ile yeni_dosya staged area'ya eklenmiştir ve ardından git commit komutu ile bu değişiklik bir commit'e dönüştürülmüştür. Bu sayede staged ve unstaged alanlar arasındaki ayrım daha iyi anlaşılabilir.
