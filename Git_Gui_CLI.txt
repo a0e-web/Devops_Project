@@ -1,0 +1,21 @@
+Git GUI (Graphical User Interface - Grafiksel Kullanıcı Arayüzü) ve Git CLI (Command Line Interface - Komut Satırı Arayüzü), Git'i kullanma yöntemlerini ifade eder.
+
+Git GUI (Grafiksel Kullanıcı Arayüzü):
+
+Git GUI, bir grafik arayüzü üzerinden Git komutlarını kullanmanıza olanak tanır. Bu tür araçlar, genellikle bir masaüstü uygulaması olarak sunulur ve Git'in temel işlevlerini düğme tıklamaları, menüler ve grafiksel ara yüz elemanları üzerinden gerçekleştirmenizi sağlar.
+Bazı popüler Git GUI araçları şunlardır:
+GitHub Desktop
+SourceTree
+GitKraken
+SmartGit
+
+Git CLI (Komut Satırı Arayüzü):
+
+Git CLI, terminal veya komut istemcisini kullanarak Git komutlarını girmenize olanak tanır. Bu, komut satırı seviyesinde esneklik sağlar ve özellikle geliştiriciler arasında yaygın olarak kullanılır.
+Git komutlarını kullanmaya alıştıktan sonra, CLI aracılığıyla hızlı ve etkili bir şekilde işlemler gerçekleştirebilirsiniz. Bu, özellikle otomasyon ve betikleme için güçlü bir arayüz sunar.
+Her iki yaklaşım da aynı temel Git komutlarını kullanır ve aynı depolama yapılarını kullanır. Seçim, kullanıcının tercihlerine, alışkanlıklarına ve projenin gereksinimlerine bağlıdır. Bazı geliştiriciler GUI araçlarını daha kullanıcı dostu ve görsel olarak anlaşılır bulurken, diğerleri CLI'ı daha güçlü ve esnek bulabilir. Genellikle, geliştiriciler zaman içinde her iki arayüzü de kullanmayı öğrenir ve projelerine ve ihtiyaçlarına göre uygun olanı seçerler.
+
+
+
+
+

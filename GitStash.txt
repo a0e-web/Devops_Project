@@ -1,0 +1,42 @@
+git stash, çalışma dizinizde yaptığınız ancak henüz commit etmediğiniz değişiklikleri geçici bir depolama alanına saklamak için kullanılan bir Git komutudur. Bu komut, çalıştığınız dalın üzerindeki değişiklikleri temizlemek veya başka bir dalda çalışmaya geçmek istediğinizde faydalıdır.
+Bu komut, çalışma dizinizdeki tüm değişiklikleri bir geçici depolama alanına (stash) kaydeder ve çalışma dizinini temizler. Ardından, farklı bir dalda çalışabilir veya başka bir işlem gerçekleştirebilirsiniz.
+
+## STASH ##
+Dikkat: stash tyapmadan önce add yapmanız gerekmektedir.
+git add .
+git stash
+git stash save "customiseStashName"
+git stash list
+git stash apply stash@{0}
+git stash drop stash@{0}
+git stash pop
+
+git stash list [<log-options>]
+git stash show [-u | --include-untracked | --only-untracked] [<diff-options>] [<stash>]
+git stash drop [-q | --quiet] [<stash>]
+git stash pop [--index] [-q | --quiet] [<stash>]
+git stash apply [--index] [-q | --quiet] [<stash>]
+git stash branch <branchname> [<stash>]
+git stash [push [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | --quiet]
+	     [-u | --include-untracked] [-a | --all] [(-m | --message) <message>]
+	     [--pathspec-from-file=<file> [--pathspec-file-nul]]
+	     [--] [<pathspec>…​]]
+git stash save [-p | --patch] [-S | --staged] [-k | --[no-]keep-index] [-q | --quiet]
+	     [-u | --include-untracked] [-a | --all] [<message>]
+git stash clear
+git stash create [<message>]
+git stash store [(-m | --message) <message>] [-q | --quiet] <commit>
+
+ projelerimizi pushlama yaparken acil.txt adında bir iş geldi ve bu iş öncelik olduğu söylendi var olan add yapılmış dosyalarımızı commitleme 
+yapmadan özel bir alanda saklama yapalım tabi bunu git stash ile yapalım.
+  stash adı araf olsun
+  acil.txt işimizi bitirdik bunu pushladık
+  stash araf adındaki stash çağırıp işleyip ve sonrasında silelim.
+ git add .
+ git stash --save "araf"
+ git stash list
+ git stash apply araf
+ git add .
+ git commit -m "stash sonrası commit"
+ git push -u origin main
+ git stash drop araf
