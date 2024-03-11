@@ -1,12 +1,12 @@
 # Image oluşturacagim
-# docker image build -t my_spring_react .
+# docker image build -t devops_project .
 
 
 # JDK Sürümü
 FROM openjdk:17
 
 # Bilgilendirme 
-LABEL maintainer="hamitmizrak@gmail.com"
+LABEL maintainer="alperenosman132@gmail.com"
 
 # Cevresel Degiskenler
 ENV APP_NAME="Blog Project"
@@ -27,8 +27,8 @@ EXPOSE 1111
 # Proje Jar ismini kısaltmak
 ARG JAR_FILE=./*.jar
 
-ADD ${JAR_FILE} spring_react
+ADD ${JAR_FILE} devops_project
 
-ENTRYPOINT [ "java","-jar","/spring_react" ]
+ENTRYPOINT [ "java","-jar","/devops_project" ]
 
 
