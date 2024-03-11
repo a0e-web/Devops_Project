@@ -11,7 +11,7 @@ LABEL maintainer="alperenosman132@gmail.com"
 # Cevresel Degiskenler
 ENV APP_NAME="Devops Project"
 ENV VERSION="v1.0.0"
-ENV PORT ="1111"
+ENV PORT ="4444"
 
 # Echo Çıktı Almak
 RUN echo "App Data Name : $APP_NAME"
