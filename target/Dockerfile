@@ -9,7 +9,7 @@ FROM openjdk:17
 LABEL maintainer="alperenosman132@gmail.com"
 
 # Cevresel Degiskenler
-ENV APP_NAME="Blog Project"
+ENV APP_NAME="Devops Project"
 ENV VERSION="v1.0.0"
 ENV PORT ="1111"
 
