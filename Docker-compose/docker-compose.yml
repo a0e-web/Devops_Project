@@ -1,0 +1,8 @@
+services:
+  backend_web:
+    container_name: devops_project
+    image: devops_project
+    restart: on-failure
+    build: ./ 
+    ports:
+      - "4444:4444"
